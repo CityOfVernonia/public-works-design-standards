@@ -1,3 +1,7 @@
+---
+title: General
+permalink: /section-1-general/
+---
 # SECTION 1.0000 - GENERAL
 
 ## 1.0010 - AUTHORITY AND PURPOSE
