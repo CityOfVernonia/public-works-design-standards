@@ -1,6 +1,6 @@
 ---
 title: Excavation and Grading
-permalink: /section-2-excavation-and-grading/
+permalink: /sections/2/excavation-and-grading/
 ---
 # SECTION	2.0000 - EXCAVATION AND GRADING
 

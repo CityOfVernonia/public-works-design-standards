@@ -1,6 +1,6 @@
 ---
 title: General
-permalink: /section-1-general/
+permalink: /sections/1/general/
 ---
 # SECTION 1.0000 - GENERAL
 
