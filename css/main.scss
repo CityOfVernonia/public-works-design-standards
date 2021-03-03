@@ -1,0 +1,285 @@
+---
+#
+---
+////////////////////////////////////////////////////////
+// font awesome icon font https://fontawesome.com/
+////////////////////////////////////////////////////////
+@import url("https://use.fontawesome.com/releases/v5.15.1/css/all.css");
+
+////////////////////////////////////////////////////////
+// sandstone vars and css https://bootswatch.com/sandstone/
+////////////////////////////////////////////////////////
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #f8f5f0 !default;
+$gray-300: #dfd7ca !default;
+$gray-400: #ced4da !default;
+$gray-500: #98978b !default;
+$gray-600: #8e8c84 !default;
+$gray-700: #495057 !default;
+$gray-800: #3e3f3a !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #325d88 !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #d9534f !default;
+$orange:  #f47c3c !default;
+$yellow:  #ffc107 !default;
+$green:   #93c54b !default;
+$teal:    #20c997 !default;
+$cyan:    #29abe0 !default;
+
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $orange !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          $gray-800 !default;
+
+@import "/css/bootstrap.min.css";
+
+/////////////
+// content //
+/////////////
+main.container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  // slightly smaller scrollspy content menu
+  .list-group-item {
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  // next/previous section buttons
+  .next-previous {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    a {
+      margin-bottom: 1.25rem;
+    }
+  }
+}
+
+////////////
+// footer //
+////////////
+footer.footer {
+  margin-top: 4em;
+	margin-bottom: 2em;
+	
+  .copyright {
+    text-align: center;
+		margin-bottom: 1rem;
+		font-size: 0.9rem;
+	}
+	.fa-coffee {
+		color: #be9969;
+	}
+}
+
+////////////////////////////////////////////////////////
+// 404
+////////////////////////////////////////////////////////
+.not-found {
+  margin: 3rem 0;
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .btn {
+    margin: 0 0.5rem;
+  }
+}
+
+////////////////////////////////////////////////////////
+// 3rd party css
+////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////
+// sticky list groups or anything else that needs to stick
+// minified js included in /js/main.js
+// https://github.com/wilddeer/stickyfill
+////////////////////////////////////////////////////////
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1rem;
+}
+
+/**
+* material-scrolltop
+*
+* Author: Bartholomej
+* Website: https://github.com/bartholomej/material-scrolltop
+* Docs: https://github.com/bartholomej/material-scrolltop
+* Repo: https://github.com/bartholomej/material-scrolltop
+* Issues: https://github.com/bartholomej/material-scrolltop/issues
+*/
+
+$mst-color: $primary; // Primary background color (deafualt: $primary-color)
+$mst-gutter: 24px; // Gap from corner (default: $column-gutter)
+$mst-button-size: 40px; // Size of circle button (default: rem-calc(56))
+$mst-icon: true !default; // Set false if you want to use your own sign directly inside html span element
+
+// ==========================================================================
+//   Mixins for material-scrolltop
+// ==========================================================================
+
+@mixin prefixer($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include prefixer(transform, translate(-50%, -50%));
+}
+
+// ==========================================================================
+//   Stylesheet
+// ==========================================================================
+
+.material-scrolltop {
+  display: block;
+  position: fixed;
+  width: 0;
+  height: 0;
+  bottom: $mst-gutter;
+  right: $mst-gutter;
+  padding: 0;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: hand;
+  background: $mst-color;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  @include prefixer(transition, all 0.3s cubic-bezier(0.25, 0.25, 0, 1));
+  @if $mst-icon {
+    @extend %mst-icon;
+  }
+
+  &:hover {
+    background-color: darken($mst-color, 10%);
+    text-decoration: none;
+  }
+
+  &::before {
+    @include centerer;
+    content: '';
+    width: 0;
+    border-radius: 100%;
+    background: mix($mst-color, #fff, 85%);
+    @if $mst-icon {
+      @extend %mst-icon;
+    }
+  }
+
+  &:active::before {
+    width: 120%;
+    padding-top: 120%;
+    @include prefixer(transition, all 0.2s ease-out);
+  }
+
+  &.reveal {
+    width: $mst-button-size;
+    height: $mst-button-size;
+  }
+
+  span {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+  }
+}
+
+%mst-icon {
+  background-image: url(/images/material-scrolltop.svg);
+  background-position: center 50%;
+  background-repeat: no-repeat;
+}
+
+/*  Bootstrap Clearfix */
+/*  Tablet  */
+@media (min-width: 767px) {
+  /* Column clear fix */
+  .col-lg-1:nth-child(12n + 1),
+  .col-lg-2:nth-child(6n + 1),
+  .col-lg-3:nth-child(4n + 1),
+  .col-lg-4:nth-child(3n + 1),
+  .col-lg-6:nth-child(2n + 1),
+  .col-md-1:nth-child(12n + 1),
+  .col-md-2:nth-child(6n + 1),
+  .col-md-3:nth-child(4n + 1),
+  .col-md-4:nth-child(3n + 1),
+  .col-md-6:nth-child(2n + 1) {
+    clear: none;
+  }
+  .col-sm-1:nth-child(12n + 1),
+  .col-sm-2:nth-child(6n + 1),
+  .col-sm-3:nth-child(4n + 1),
+  .col-sm-4:nth-child(3n + 1),
+  .col-sm-6:nth-child(2n + 1) {
+    clear: left;
+  }
+}
+/*  Medium Desktop  */
+@media (min-width: 992px) {
+  /* Column clear fix */
+  .col-lg-1:nth-child(12n + 1),
+  .col-lg-2:nth-child(6n + 1),
+  .col-lg-3:nth-child(4n + 1),
+  .col-lg-4:nth-child(3n + 1),
+  .col-lg-6:nth-child(2n + 1),
+  .col-sm-1:nth-child(12n + 1),
+  .col-sm-2:nth-child(6n + 1),
+  .col-sm-3:nth-child(4n + 1),
+  .col-sm-4:nth-child(3n + 1),
+  .col-sm-6:nth-child(2n + 1) {
+    clear: none;
+  }
+  .col-md-1:nth-child(12n + 1),
+  .col-md-2:nth-child(6n + 1),
+  .col-md-3:nth-child(4n + 1),
+  .col-md-4:nth-child(3n + 1),
+  .col-md-6:nth-child(2n + 1) {
+    clear: left;
+  }
+}
+/*  Large Desktop  */
+@media (min-width: 1200px) {
+  /* Column clear fix */
+  .col-md-1:nth-child(12n + 1),
+  .col-md-2:nth-child(6n + 1),
+  .col-md-3:nth-child(4n + 1),
+  .col-md-4:nth-child(3n + 1),
+  .col-md-6:nth-child(2n + 1),
+  .col-sm-1:nth-child(12n + 1),
+  .col-sm-2:nth-child(6n + 1),
+  .col-sm-3:nth-child(4n + 1),
+  .col-sm-4:nth-child(3n + 1),
+  .col-sm-6:nth-child(2n + 1) {
+    clear: none;
+  }
+  .col-lg-1:nth-child(12n + 1),
+  .col-lg-2:nth-child(6n + 1),
+  .col-lg-3:nth-child(4n + 1),
+  .col-lg-4:nth-child(3n + 1),
+  .col-lg-6:nth-child(2n + 1) {
+    clear: left;
+  }
+}

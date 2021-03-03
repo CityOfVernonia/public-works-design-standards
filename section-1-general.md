@@ -1,10 +1,15 @@
 ---
+layout: default
+menu: true
 title: General
 permalink: /sections/1/general/
----
-# SECTION 1.0000 - GENERAL
 
-## 1.0010 - AUTHORITY AND PURPOSE
+next-page: Section 2 - Excavation and Grading
+next-url: /sections/2/excavation-and-grading/
+---
+### SECTION 1 - GENERAL
+
+#### 1.0010 - AUTHORITY AND PURPOSE
 
 The Vernonia Comprehensive Plan addresses land use and development issues within the City. This comprehensive planning document is a single document with references to many Ordinances. The Vernonia Comprehensive Plan and Subdivision Ordinance regulates the divisions of land and the creation of public facilities. The "Design Standards" section of the Subdivision Ordinance discusses generalized public facility design requirements.
 
@@ -16,24 +21,21 @@ The Design Standards are also not intended to limit unreasonably any innovative 
 
 Alternate materials and methods will be considered for approval by the City Engineer as the need arises and conditions warrant modification. This consideration will be on a case-by-case basis and require sufficient justification prior to approval. (See Section 1.0050)
 
-
-## 1.0020 - ENGINEERING POLICY
+#### 1.0020 - ENGINEERING POLICY
 
 It shall be the policy of the City of Vernonia to require compliance with Oregon Revised Statute Chapter 672 for professional engineers.
 
 All engineering plans, reports, or documents shall be prepared by a registered professional engineer, or by a subordinate employee under the engineer's direction, and shall be signed by the engineer and stamped with the engineer's seal to indicate the engineer's responsibility for them. It shall be the engineer's responsibility to review any proposed public facility extension, modification, or other change with the City, prior to engineering or proposed design work, to determine any special requirements or whether the proposal is permissible. A "Preliminary Review" and/or a "Plans Approved for Construction" stamp of the City, on the plans, etc., for any job, does not in any way relieve the engineer of responsibility to meet all requirements of the City or obligation to protect life, health, and property of the public. The plan for any project shall be revised or supplemented at any time it is determined that the full requirements of the City have not been met.
 
-
-## 1.0030 - APPLICABILITY
+#### 1.0030 - APPLICABILITY
 
 These Design Standards shall govern all construction and upgrading of all public and privately financed public facilities in the City of Vernonia and applicable work within its service areas.
 
-## 1.0040 - STANDARD SPECIFICATIONS
+#### 1.0040 - STANDARD SPECIFICATIONS
 
 Except as otherwise provided by these Design Standards, all construction design detail, workmanship and materials shall be in accordance with the current edition of the APWA Standard Specifications for Public Works Construction, Oregon Chapter.
- 
 
-## 1.0050 - APPROVAL OF ALTERNATE MATERIALS OR METHODS
+#### 1.0050 - APPROVAL OF ALTERNATE MATERIALS OR METHODS
 
 Any substitution material or alternate method not explicitly approved herein will be considered for approval as set forth in Section 1.0010. Persons seeking such approvals shall make application in writing. Approval of any deviation from these Design Standards will be in written form. Approval of minor matters will be made in writing if requested.
 
@@ -43,7 +45,7 @@ The written application is to include, but is not limited to, the manufacturer's
 
 Any deviations or special problems shall be reviewed on a case-by-case basis and approved by the City Engineer. When requested by the City, full design calculations shall be submitted for review with the request for approval.
 
-## 1.0060 - SPECIAL DESIGN PROBLEMS
+#### 1.0060 - SPECIAL DESIGN PROBLEMS
 
 Special applications not covered in these Design Standards require review and approval by the City Engineer. Submittal of full design calculations, supplemental drawings and information will be required prior to any approval.
 
@@ -65,13 +67,13 @@ Applications requiring special review and approval may include, but are not limi
 * Water Treatment Plants
 * Water Flow Measurement/Monitoring
 
-## 1.0070 - REVISIONS TO DESIGN STANDARDS
+#### 1.0070 - REVISIONS TO DESIGN STANDARDS
 
 It is anticipated that revisions to these Design Standards will be made from time to time. The date appearing on the bottom of each page is the date of the latest revision. Users should apply the latest published issue to the work contemplated.
 
 Parenthetical notations at the end of sections indicate the most recent change to those sections. All sections without. notations are from the original Design Standards as adopted. Some sections may be changed more than once, and it shall be the user's responsibility to maintain his/her copy of these Design Standards with the latest changes.
 
-## 1.0080 - DEFINITIONS
+#### 1.0080 - DEFINITIONS
 
 **Alley** - A public access easement or right-of-way not more than 20 feet and not less than 12 feet in width, which intersects with a public street.
 
@@ -245,30 +247,33 @@ Parenthetical notations at the end of sections indicate the most recent change t
 
 **Wetlands** - Those lands adjacent to watercourses or isolated therefrom which may normally or periodically be inundated by the waters from the watercourse or the drainage waters from the drainage basin in which it is located. These include swamps, bogs, sinks, marshes, and lakes, all of which are part of the watercourse and drainage system of the City and shall include the headwater areas where the watercourse first surfaces. They may be, but are not necessarily, characterized by special vegetation or soils such as peat, muck, and mud.
 
-## 1.0090 - CONSTRUCTION PLANS
+#### 1.0090 - CONSTRUCTION PLANS
 
-### 1.0091 - GENERAL INFORMATION
+*this heading is just that...a heading*
+
+##### 1.0091 - GENERAL INFORMATION
 
 Prior to any construction work and plan approval, complete construction plans, specifications and all other necessary submittals shall be submitted to the City Engineer for review.
 
-## 1.0100 - PLAN PREPARATION
+#### 1.0100 - PLAN PREPARATION
 
 Construction plans and specifications shall be prepared as specified in Sections 1.0091 - 1.0134 by a professional engineer licensed in the State of Oregon.
 
-## 1.0101 - SHEET SIZE
+#### 1.0101 - SHEET SIZE
 
 All construction plans shall be clearly and legibly drawn in ink on Mylar sheets measuring 22 x 34 inches. Sheets shall have 1-1/2 inches of clear margin on the left edge and a 1/2-inch margin on all other edges.
 
-## 1.0102 - SETS OF PLANS
+#### 1.0102 - SETS OF PLANS
 
 When plans are prepared for developer financed projects, the following scale of drawings is suggested.
 
 | Plan | Horizontal Scale | Vertical Scale |
 |---|---|---|
-| Street | 1" = 20'[^1] | 1" = 2' |
+| Street | 1" = 20' [^1] | 1" = 2' |
 | Sewer | 1" = 40' | 1" = 4' |
 | Storm | 1" = 20' or 40' |	1" = 4' |
-| Water | 1" = 20' or 40'[^2] |	1" = 4' |
+| Water | 1" = 20' or 40' [^2] |	1" = 4' |
+{: .table.table-striped}
 
 [^1]: Subdivision street plans, when combined with other proposed facilities listed above, may be drawn at 1" = 40' scale.
 
@@ -276,11 +281,11 @@ When plans are prepared for developer financed projects, the following scale of 
 
 Architectural scales (i.e., 1/4" = 1'-0") are not permitted unless approved.
 
-## 1.0130 - REQUIRED SHEETS
+#### 1.0130 - REQUIRED SHEETS
 
 Construction plan submittals shall contain the following minimum sheets: title sheet (unless not required by the Superintendent of Public Works) plan and profile sheets, detail sheets.
 
-### 1.0131 - TITLE SHEET
+##### 1.0131 - TITLE SHEET
 
 All subdivision projects and multiple street improvement projects shall have a title sheet as the first page of the construction plans. This sheet shall contain the following minimum information.
 
@@ -296,7 +301,7 @@ All subdivision projects and multiple street improvement projects shall have a t
 1. Provide contact phone number for all affected utility companies.
 1. Show tax lot numbers or lot and block designations.
 
-### 1.0132 - PLAN SHEET
+##### 1.0132 - PLAN SHEET
 
 The plan view of each sheet shall be drawn at the appropriate scale showing the following minimum information:
 
@@ -309,7 +314,7 @@ The plan view of each sheet shall be drawn at the appropriate scale showing the 
 1. On water plans, all fittings shall be shown and identified by type (i.e., MJ x MJ, FLG X MJ, etc.). Fire hydrants and intersection details for valves and fittings are required when scale of plans is smaller than 1" = 20' (i.e., 1" - 40'). All valves, fittings and pipe conditions shall be indicated.
 1. On erosion control plans, the location of silt fences, inlet barriers, gravel entry ways, temporary ditches and detention ponds and surface preparation shall be shown. The plan shall show the entire development. Details of erosion control devices can be shown on this sheet.
 
-### 1.0133- PROFILE SHEET
+##### 1.0133- PROFILE SHEET
 
 Profiles for construction plans shall be the same horizontal scale as the plan sheet. Where profiles are drawn on the same sheet as the plan view, the profile shall be immediately below the plan view. Stationing shall be continuously upgrade from left to right with lower stations to the left. The following minimum information shall be shown:
 
@@ -321,11 +326,11 @@ Profiles for construction plans shall be the same horizontal scale as the plan s
 1. Clearly show all potential utility conflicts with appropriate pipes, conduits, vaults, etc. that affect proposed design.
 SPECIAL NOTE: The City of Vernonia as-builts are only to be used as an aid to the engineer. When a potential conflict may occur, the engineer shall field locate, or cause to be located, and verify the alignment, depth, and inverts of all existing facilities shown on the plans that will be crossed by the proposed facility.
 
-### 1.0134 - DETAIL SHEETS
+##### 1.0134 - DETAIL SHEETS
 
 Detailed drawings shall be included with all construction plans where City of Vernonia Standard­ drawings do not exist. If a standard drawing must be modified to fit existing or unique conditions, the modified drawing shall be shown on the plans. When appropriate, due to required detail complexity, a separate detail sheet shall be drawn. When City standard drawing appurtenances or construction installations are to be used, a reference to the specific Standard Drawing number shall be made on the title sheet.
 
-## 1.0140-SUPPORTING INFORMATION
+#### 1.0140-SUPPORTING INFORMATION
 
 The engineer shall submit sufficient supporting information to justify the proposed design. Such information shall include, but not be limited to, the following:
 
@@ -339,17 +344,17 @@ Alternate materials specifications including manufacturers' design application r
 1. Hydrology report
 1. Engineering geology report
 
-### 1.0141 - UTILITY PLAN
+##### 1.0141 - UTILITY PLAN
 
 When designing sanitary or storm sewer facilities, a utility plan shall be submitted with the construction plans when required by the Superintendent of Public Works. This plan shall be used to identify and analyze the extension of the proposed facilities. The topographic plan shall show all upstream and tributary areas within no less than 200 feet of the proposed development.
 The plan shall include existing contours at one (1) foot intervals, or as approved by the City. Include location of existing structures and public and private utilities.
 
-## 1.0150 - PLAN SUBMITTAL
+#### 1.0150 - PLAN SUBMITTAL
 
 Construction plans for all privately financed public works facility improvements shall be submitted to the City. The City Engineer will coordinate the plan review and approval of all construction plans which will include review for compliance with all Vernonia Design Standard, utility master plans, City Code and Ordinances.
 All plan submittals shall include information required in Sections: 1.0140 and 1.0141 of these Design Standards along with all other information requested by the Superintendent of Public Works. This information shall include, but is not limited to, construction cost estimates, easement documents, right-of-way dedications, and executed agreements. All submittals will be reviewed for completeness and the engineer notified rf required information is missing. Submittals should be made in a timely manner as lack of information to the City may impede the review process.
 
-## 1.0160 - AS-BUILT PLAN REQUIREMENTS
+#### 1.0160 - AS-BUILT PLAN REQUIREMENTS
 
 For all public works facility improvements, the engineer shall submit certified as-built drawings for all plans which were approved for construction. As-built drawings shall meet the requirements of Sections 1.0100, 1.0130 and 1.0160 - 1.0164 of these Design Standards and shall be of archival quality. At a minimum, the drawings shall be 4 mil Mylar with silver halide emulsion. Original inked Mylars may also be submitted in lieu of photographic Mylars on Mylar sheets. In addition, one (1) set of blue line as-builts shall be submitted.
 The engineer shall submit, along with the as-built drawings, a statement certifying that all work for which plans were approved has been completed in accordance with the Vernonia Public Works Design Standards and Standard Specifications and design documents.
@@ -357,7 +362,7 @@ The words "As-Built Drawing" shall appear as the last entry in the revision bloc
 
 **NOTE:** Actual location and depth from finish grade of any other utilities encountered during construction shall be noted on as-built plans.
 
-### 1.0161 - STREET
+##### 1.0161 - STREET
 
 The following minimum information shall be noted on the street as-builts:
 
@@ -367,7 +372,7 @@ The following minimum information shall be noted on the street as-builts:
 1. Change to driveway locations or widths.
 1. Other change(s) altering the approved plans, including but not limited to, curbs, sidewalks, wheelchair ramps and lighting.
 
-### 1.0162 - STORM DRAINS
+##### 1.0162 - STORM DRAINS
 
 The following minimum information shall be noted on storm drain as-built drawings:
 
@@ -375,7 +380,7 @@ The following minimum information shall be noted on storm drain as-built drawing
 1. Show alignment changes, grade changes and changes in construction materials. If changed alignment results in station changes, a station equation shall be shown as appropriate at a manhole.
 1. Other change(s) altering the approved plans, including but not limited to; catch basin location, manhole location, pipe size, dry well location, etc.
 
-### 1.0163 - SANITARY SEWER
+##### 1.0163 - SANITARY SEWER
 
 The following minimum information shall be noted on sanitary sewer as-built drawings:
 
@@ -387,7 +392,7 @@ The following minimum information shall be noted on sanitary sewer as-built draw
 1. Provide complete test results to the City Engineer.
 1. Type of pipe, backfill material, and location.
 
-### 1.0164 - WATER MAIN
+##### 1.0164 - WATER MAIN
 
 The following minimum information shall be noted on water main as-built drawings:
 

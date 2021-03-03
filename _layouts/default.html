@@ -1,0 +1,130 @@
+---
+layout: compress
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <meta name="theme-color" content="{{ site.theme-color }}">
+
+  <!-- title and SEO stuffs -->
+  {% seo %}
+
+  <!-- site css -->
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <!-- header nav -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="/" title="Home">
+          Public Works Design Standards
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
+          aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav mr-auto">
+            {%- for item in site.data.nav.items -%}
+            {%- if item.title -%}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}Dropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ item.title }}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="{{ item.id }}Dropdown">
+                {% for subitem in item.subitems %}
+                <a class="dropdown-item{% if page.permalink == subitem.url %} active{% endif %}"
+                  href="{{ subitem.url }}">{{ subitem.page }}</a>
+                {% endfor %}
+              </div>
+            </li>
+            {%- else -%}
+            <li class="nav-item{% if page.permalink == item.url %} active{% endif %}">
+              <a class="nav-link" href="{{ item.url }}">{{ item.page }}</a>
+            </li>
+            {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /header nav -->
+
+  <!-- content -->
+  <main class="container page-content">
+    {%- if page.menu -%}
+    <div class="row">
+      <div class="col-sm-12 col-md-9">
+        <div class="next-previous">
+          <div>
+            {%- if page.previous-page -%}
+            <a class="btn btn-primary btn-sm" href="{{ page.previous-url }}"><i class="fas fa-arrow-left mr-3"></i>{{
+              page.previous-page }}</a>
+            {%- endif -%}
+          </div>
+          <div>
+            {%- if page.next-page -%}
+            <a class="btn btn-primary btn-sm" href="{{ page.next-url }}">{{ page.next-page }}<i
+                class="fas fa-arrow-right ml-3"></i></a>
+            {%- endif -%}
+          </div>
+        </div>
+        {{ content }}
+      </div>
+      <div class="col-md-3 d-none d-md-block">
+        <div class="sticky">
+          <h5>{{ page.title }}</h5>
+          <div class="list-group list-group-flush" data-page-menu></div>
+        </div>
+      </div>
+    </div>
+    {%- else -%}
+    {{ content }}
+    {%- endif -%}
+  </main>
+  <!-- /content -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright text-muted">
+        The City of Vernonia is an Equal Opportunity Employer and Provider
+        <br>
+        Copyright &copy; {{ "now" | date: "%Y" }} City of Vernonia
+        <br>
+        Made with <i class="fas fa-heart text-danger"></i> and <i class="fas fa-coffee"></i> in Vernonia, Oregon
+        <br>
+        build: <a href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}" target="_blank"
+          rel="noopener">{{ site.github.build_revision | slice: 0, 7 }}</a>
+      </p>
+    </div>
+  </footer>
+  <!-- /footer -->
+
+  <!-- scrolltop button node -->
+  <button class="material-scrolltop" type="button"></button>
+  <!-- /scrolltop button node -->
+
+  <!-- jquery and bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.8.3/dist/umd/popper.min.js"
+    integrity="sha256-kavdsw93MSM74fXiHMqn1WIhfT2AZoB9NObVgP3whLs=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha256-7dA7lq5P94hkBsWdff7qobYkp9ope/L5LQy2t/ljPLo=" crossorigin="anonymous"></script>
+
+  <!-- site main -->
+  <script src="/js/main.js"></script>
+</body>
+
+</html>

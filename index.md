@@ -1,46 +1,15 @@
-# Public Works Design Standards
+---
+layout: default
+title: Public Works Design Standards
+---
+## City of Vernonia
 
-## SECTION	1.0000 - GENERAL
-### 1.0010 - AUTHORITY AND PURPOSE
-### 1.0020 - ENGINEERING POLICY	
-### 1.0030 - APPLICABILITY	
-### 1.0040 - STANDARD SPECIFICATIONS
-### 1.0050 - APPROVAL OF ALTERNATE MATERIALS OR METHODS
-### 1.0060 - SPECIAL DESIGN PROBLEMS
-### 1.0070 - REVISIONS TO DESIGN STANDARDS
-### 1.0080 - DEFINITIONS
-### 1.0090 - CONSTRUCTION PLANS
-#### 1.0091 - GENERAL INFORMATION
-### 1.0100 - PLAN PREPARATION	
-#### 1.0101 - SHEET SIZE	
-#### 1.0102 - SETS OF PLANS
-### 1.0130 - REQUIRED SHEETS	
-#### 1.0131 - TITLE SHEET	
-#### 1.0132 - PLAN SHEET	
-#### 1.0133 - PROFILE SHEET
-#### 1.0134 - DETAIL SHEETS
-### 1.0140 - SUPPORTING INFORMATION
-#### 1.0141 - UTILITY PLAN	
-### 1.0150 - PLAN SUBMITTAL	
-### 1.0160 - AS-BUILT PLAN REQUIREMENTS
-#### 1.0161 - STREET	
-#### 1.0162 - STORM DRAINS
-#### 1.0163 - SANITARY SEWER
-#### 1.0164 - WATER MAIN	
+### Public Works Design Standards
 
-## SECTION	2.0000 - EXCAVATION AND GRADING
-### 2.0010 - PURPOSE
-### 2.0020 - SCOPE
-### 2.0030 - PERMITS REQUIRED
-### 2.0040 - HAZARDS
-### 2.0050 - DEFINITIONS
-### 2.0060 - GRADING PERMIT REQUIREMENTS
-### 2.0070 - GRADING FEES
-### 2.0080 - BONDS
-### 2.0090 - CUTS
-### 2.0100 - FILLS
-### 2.0110 - SETBACKS
-### 2.0120 - DRAINAGE AND TERRACING
-### 2.0130 - EROSION CONTROL
-### 2.0140 - GRADING INSPECTION
-### 2.0150 - COMPLETION OF WORK
+This is a work in progress. Use [this document](https://drive.google.com/file/d/1Hc1Vd6uAbzT9sM2Y3MljiVtjJDdSjDwl/view) until the conversion is complete.
+
+#### [Section 1 - General](/sections/1/general/)
+
+#### [Section 2 - Excavation and Grading](/sections/2/excavation-and-grading/)
+
+#### [Section 3 - Storm Drainage](/sections/3/storm-drainage/)

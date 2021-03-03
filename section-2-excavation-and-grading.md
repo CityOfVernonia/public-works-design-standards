@@ -1,14 +1,22 @@
 ---
+layout: default
+menu: true
 title: Excavation and Grading
 permalink: /sections/2/excavation-and-grading/
----
-# SECTION	2.0000 - EXCAVATION AND GRADING
 
-## 2.0010 - PURPOSE
+previous-page: Section 1 - General
+previous-url: /sections/1/general/
+
+next-page: Section 3 - Storm Drainage
+next-url: /sections/3/storm-drainage/
+---
+### SECTION	2 - EXCAVATION AND GRADING
+
+#### 2.0010 - PURPOSE
 
 The purpose of this section is to safeguard life, limb, property and the public welfare by regulating grading on private property.
 
-## 2.0020 - SCOPE
+#### 2.0020 - SCOPE
 
 This section sets forth rules and regulations to control excavation, grading and earthwork construction, including fills and embankments; establishes the administrative procedure for issuance of permits; and provides for approval of plans and inspection of grading construction.
 
@@ -20,11 +28,15 @@ The standards listed below are guideline standards and as such are not adopted a
 1. ASTM D 2937, In Place Density of Soils by the Drive-Cylinder Method
 1. ASTM D 2922 and D 3017, In Place Moisture Contact and Density of Soils by Nuclear Methods
 
-## 2.0030 - PERMITS REQUIRED
+#### 2.0030 - PERMITS REQUIRED
 
-**2.0030(a) Permits Required** - Except as specified in Subsection (b) of this section, no person shall do any grading without first having obtained a grading permit from the City.
+**2.0030(a) Permits Required**
 
-**2.0030(b) Exempted Work** - A grading permit if not required for the following:
+Except as specified in Subsection (b) of this section, no person shall do any grading without first having obtained a grading permit from the City.
+
+**2.0030(b) Exempted Work**
+
+A grading permit if not required for the following:
 
 1. When approved by the Superintendent of Public Works, grading in an isolated, self-contained area if there is no danger to private or public property.
 1. An excavation below finished grade for basements and footings of a building, retaining wall or other structure authorized by a valid building permit. This shall not exempt any fill made with the material from such excavation or exempt any excavation having an unsupported height greater than 5 feet after the completion of such structure.
@@ -38,11 +50,11 @@ The standards listed below are guideline standards and as such are not adopted a
 
 Exemption from the permit requirements of this chapter shall not be deemed to grant authorization for any work to be done in any manner in violation of the provisions of this chapter or any other laws or ordinances of this jurisdiction.
 
-## 2.0040 - HAZARDS
+#### 2.0040 - HAZARDS
 
 Whenever the Superintendent of Public Works determines that any existing excavation or embankment or fill on private property has become a hazard to life and limb, or endangers property, or adversely affect the safety, use or stability of a public way or drainage channel, the owner of the property upon which the excavation or fill is located, or other person or agent in control of said property, upon receipt of notice in writing from the Superintendent of Public Works, shall within the period specified therein repair or eliminate such excavation or embankment so as to eliminate the hazard and be in conformance with the requirements of this code.
 
-## 2.0050 - DEFINITIONS
+#### 2.0050 - DEFINITIONS
 
 For the purpose of this section the definitions listed thereunder shall be construed as specified in this section.
 
@@ -70,6 +82,7 @@ civil works.
 **EROSION** - is the wearing away of the ground surface as result of the movement of wind, water or ice
 
 **EXCAVATION** - is the mechanical removal of earth material.
+
 **EXISTING** - grade is the grade prior to grading.
  
 **FINISH** - grade is the final grade of the site which conforms to the approved plan.
@@ -100,7 +113,7 @@ civil works.
 
 **TERRACE** - is a relatively level step constructed in the face of a graded slope surface for drainage and maintenance purposes.
 
-## 2.0060 - GRADING PERMIT REQUIREMENTS
+#### 2.0060 - GRADING PERMIT REQUIREMENTS
 
 **2.0060(a) Permits Required**
 
@@ -157,17 +170,17 @@ The provisions of Section 7.0000 are applicable to grading permits. The Superint
 
 The Superintendent of Public Works may require professional inspection and testing by the soils engineer. When the Superintendent of Public Works has caused to believe that geologic factors may be involved, the grading will be required to conform to engineered grading.
 
-## 2.0070 - GRADING FEES
+#### 2.0070 - GRADING FEES
 
 *no section in original document*
 
-## 2.0080 - BONDS
+#### 2.0080 - BONDS
 
 The Superintendent of Public Works may require bonds in such form and amounts as may be deemed necessary to assure that the work, if not completed in accordance with the approved plans and specifications, win be corrected to eliminate hazardous conditions.
 
 In lieu of a surety bond the applicant may file a cash bond or instrument of credit with the City in an amount equal to that which would be required in the surety bond.
 
-## 2.0090 - CUTS
+#### 2.0090 - CUTS
 
 **2.0090(a) General**
 
@@ -179,7 +192,7 @@ In the absence of an approved soils engineering report, these provisions may be 
 
 The slope of cut surfaces shall be no steeper than is safe for the intended use and shall be no steeper than 2 horizontal to 1 vertical unless the permittee furnishes a soils engineering or an engineering geology report, or both, stating that the site has been investigated and giving an opinion that a cut at a steeper slope will be stable and not create a hazard to public or private property.
 
-## 2.0100 - FILLS
+#### 2.0100 - FILLS
 
 **2.0100(a) General**
 
@@ -209,7 +222,7 @@ All fills shall be compacted to a minimum of 90 percent of maximum density per A
 
 The slope of fill surfaces shall be no steeper than is safe for the intended use. Fill slopes shall be no steeper than 2 horizontal to 1 vertical.
 
-## 2.0110 - SETBACKS
+#### 2.0110 - SETBACKS
 
 **2.0110(a) General**
 
@@ -228,7 +241,7 @@ The top of cut slope shall not be made nearer to a site boundary line than one f
 
 The Superintendent of Public Works may approve alternate setbacks, The Superintendent of Public Works may require an investigation and recommendation by a qualified engineer or engineering geologist to demonstrate that the intent of this section has been satisfied.
 
-## 2.0120 - DRAINAGE AND TERRACING
+#### 2.0120 - DRAINAGE AND TERRACING
 
 **2.0120(a) General**
 
@@ -262,7 +275,7 @@ Exception: The gradient from the building pad may be 1 percent if all of the fol
 
 Paved interceptor drains shall be installed along the top of all cut slopes where the tributary drainage area above slopes toward the cut and has a drainage path greater than 40 feet measured horizontally. Interceptor drains shall be paved with a minimum of 3 inches of concrete or gunite and reinforced. They shall have a minimum depth of 12 inches and minimum paved width of 30 inches measured horizontally across the drain. The slope of drain shall be approved by the city official.
 
-## 2.0130 - EROSION CONTROL
+#### 2.0130 - EROSION CONTROL
 
 **2.0130(a) Slopes**
 
@@ -276,7 +289,7 @@ Where necessary, check dams, cribbing, rip-rap or other devices or methods shall
 
 Temporary erosion control facilities shall be used to protect against erosion during construction. See Section 3.0050 for requirements.
 
-## 2.0140 - GRADING INSPECTION
+#### 2.0140 - GRADING INSPECTION
 
 **2.0140(a) General**
 
@@ -312,7 +325,7 @@ If the civil engineer, the soils engineer, or the engineering geologist of recor
 
 It shall be the duty of the permittee to notify the city inspector in writing of such change prior to the recommencement of such grading.
 
-## 2.0150 - COMPLETION OF WORK
+#### 2.0150 - COMPLETION OF WORK
 
 **2.0150(a) Final Reports**
 
