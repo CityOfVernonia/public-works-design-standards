@@ -25,36 +25,8 @@ layout: compress
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
         <a class="navbar-brand" href="/" title="Home">
-          Public Works Design Standards
+          Vernonia Public Works Design Standards
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
-          aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMain">
-          <ul class="navbar-nav mr-auto">
-            {%- for item in site.data.nav.items -%}
-            {%- if item.title -%}
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}Dropdown" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ item.title }}
-              </a>
-              <div class="dropdown-menu" aria-labelledby="{{ item.id }}Dropdown">
-                {% for subitem in item.subitems %}
-                <a class="dropdown-item{% if page.permalink == subitem.url %} active{% endif %}"
-                  href="{{ subitem.url }}">{{ subitem.page }}</a>
-                {% endfor %}
-              </div>
-            </li>
-            {%- else -%}
-            <li class="nav-item{% if page.permalink == item.url %} active{% endif %}">
-              <a class="nav-link" href="{{ item.url }}">{{ item.page }}</a>
-            </li>
-            {%- endif -%}
-            {%- endfor -%}
-          </ul>
-        </div>
       </div>
     </nav>
   </header>
@@ -85,6 +57,38 @@ layout: compress
         <div class="sticky">
           <h5>{{ page.title }}</h5>
           <div class="list-group list-group-flush" data-page-menu></div>
+        </div>
+      </div>
+    </div>
+    {%- elsif page.home -%}
+    <div class="row">
+      <div class="col-md-8">
+
+        <div class="alert alert-light">
+          This is a work in progress. Use <a
+            href="https://drive.google.com/file/d/1Hc1Vd6uAbzT9sM2Y3MljiVtjJDdSjDwl/view" target="_blank"
+            rel="noopener">this document</a> until the conversion is complete.
+        </div>
+
+        <form class="search col-md-8">
+          <fieldset disabled>
+            <div class="input-group">
+              <input type="text" class="form-control" name="SEARCH_PWDS"
+                placeholder="Search public works design standards">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </div>
+          </fieldset>
+        </form>
+        <div class="row search-result">
+          <p class="col-sm-12">Search coming soon.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h5>Sections</h5>
+        <div class="list-group list-group-flush">
+          {%- for item in site.data.nav.items -%}
+          <a class="list-group-item list-group-item-action" href="{{ item.url }}">{{ item.page }}</a>
+          {%- endfor -%}
         </div>
       </div>
     </div>

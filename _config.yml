@@ -20,6 +20,10 @@ github:
   repository_url: https://github.com/CityOfVernonia/public-works-design-standards
   repository_name: public-works-design-standards
 
+algolia:
+  application_id: "IZDR0RB703"
+  index_name: "public-works-design-standards"
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

@@ -62,10 +62,11 @@
     for (let node in nodes) {
       text = nodes[node].textContent;
       href = nodes[node].querySelector('.anchorjs-link').getAttribute('href');
-      nodes[node].setAttribute('id', 'a_' + nodes[node].getAttribute('id'))
-      nodes[node].querySelector('.anchorjs-link').setAttribute('href', href.replace('#', '#a_'));
+      href = href.replace(/\d+/g, '').replace(/---/g, '');
+      nodes[node].setAttribute('id', href.replace('#', ''));
+      nodes[node].querySelector('.anchorjs-link').setAttribute('href', href);
       if (nodes[node].tagName === 'H4') {
-        put(pageMenu, 'a.list-group-item.list-group-item-action[href=' + href.replace('#', '#a_') + ']', text);
+        put(pageMenu, 'a.list-group-item.list-group-item-action[href=' + href + ']', text);
       }
     }
     $('body').scrollspy({ target: pageMenu });

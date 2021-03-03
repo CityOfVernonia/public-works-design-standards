@@ -68,6 +68,22 @@ main.container {
 }
 
 ////////////
+// search //
+////////////
+.search {
+  .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    line-height: 21px;
+  }
+}
+
+.search-result {
+  min-height: 200px;
+  margin-top: 1.5rem;
+}
+
+////////////
 // footer //
 ////////////
 footer.footer {
