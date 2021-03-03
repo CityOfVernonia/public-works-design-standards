@@ -78,9 +78,30 @@ main.container {
   }
 }
 
+.algolia {
+  margin-top: 0.5rem;
+  float: right;
+  img {
+    height: 18px;
+  }
+}
+
 .search-result {
   min-height: 200px;
   margin-top: 1.5rem;
+}
+
+.card-text-result {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ais-Highlight {
+  background-color: $yellow;
+  // color: $red;
+  font-style: normal;
 }
 
 ////////////

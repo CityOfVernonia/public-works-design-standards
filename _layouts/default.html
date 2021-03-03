@@ -15,6 +15,12 @@ layout: compress
   <!-- title and SEO stuffs -->
   {% seo %}
 
+  <!-- algolia search -->
+  {%- if page.home -%}
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CObject.entries%2CObject.assign"></script>
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch.umd.js"></script>
+  {%- endif -%}
+
   <!-- site css -->
   <link rel="stylesheet" href="/css/main.css">
 </head>
@@ -61,27 +67,27 @@ layout: compress
       </div>
     </div>
     {%- elsif page.home -%}
+
+    <div class="alert alert-warning" style="margin-bottom:2rem;">
+      <h5 class="alert-heading">This project is a work in progress.</h5>
+      <p class="mb-0">Use <a href="https://drive.google.com/file/d/1Hc1Vd6uAbzT9sM2Y3MljiVtjJDdSjDwl/view" target="_blank" rel="noopener">this document</a> until the conversion is complete.</p>
+    </div>
+
     <div class="row">
       <div class="col-md-8">
-
-        <div class="alert alert-light">
-          This is a work in progress. Use <a
-            href="https://drive.google.com/file/d/1Hc1Vd6uAbzT9sM2Y3MljiVtjJDdSjDwl/view" target="_blank"
-            rel="noopener">this document</a> until the conversion is complete.
-        </div>
-
-        <form class="search col-md-8">
-          <fieldset disabled>
+        <form class="search" data-search-form>
+          <fieldset>
             <div class="input-group">
               <input type="text" class="form-control" name="SEARCH_PWDS"
-                placeholder="Search public works design standards">
+                placeholder="Search public works design standards" min="3">
               <button class="btn btn-primary" type="submit">Search</button>
+            </div>
+            <div class="algolia">
+              <img src="/images/search-by-algolia-light-background.svg" />
             </div>
           </fieldset>
         </form>
-        <div class="row search-result">
-          <p class="col-sm-12">Search coming soon.</p>
-        </div>
+        <div class="search-result" data-search-result></div>
       </div>
       <div class="col-md-4">
         <h5>Sections</h5>

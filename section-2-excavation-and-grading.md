@@ -1,6 +1,7 @@
 ---
 layout: default
 menu: true
+section: 2
 title: Excavation and Grading
 permalink: /sections/2/excavation-and-grading/
 
