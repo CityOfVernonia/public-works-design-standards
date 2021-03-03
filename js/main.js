@@ -106,7 +106,7 @@ function cleanAnchor(anchor) {
           console.log(hits);
 
           hits.forEach(hit => {
-            const { title, url, anchor, _highlightResult: { content: { value: highlight } } } = hit;
+            const { title, section, url, anchor, _highlightResult: { content: { value: highlight } } } = hit;
 
             const cleanedAnchor = cleanAnchor(anchor);
 
@@ -114,7 +114,7 @@ function cleanAnchor(anchor) {
               <div class="card mb-3">
                 <div class="card-body">
                   <p class="card-text card-text-result">
-                    <span>Section - ${title}</span>
+                    <span>Section ${section} - ${title}</span>
                     <span><a href="${url}#${cleanedAnchor}" target="_blank">View This Content</a></span>
                   </p>
                   <p class="card-text">${highlight}</p>
